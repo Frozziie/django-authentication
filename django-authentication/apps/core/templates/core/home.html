@@ -1,0 +1,10 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2 class="letter-w">Home</h2>
+    <p class="letter-w">Welcome to my site <strong>{% if user.is_authenticated %}{{ user.username }}{% else %}visitor{% endif %}!</strong></p>
+    <hr class="letter-w">
+    <p class="letter-w"><strong>Users registered: </strong> {{ count }}</p>
+{% endblock %}
