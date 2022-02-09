@@ -1,4 +1,6 @@
-# Login and Registration
+# Simple Login and Registration
+Django project with basic user functionality.
+
 ## Functionality
 - Log in
 - Create Account
@@ -11,7 +13,7 @@
 ### Clone the project
 
 ```
-git clone https://github.com/Frozziie/django-authentication-v2.git
+git clone https://github.com/Frozziie/django-authentication.git
 ```
 
 ### Install dependencies & activate virtualenv
