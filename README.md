@@ -26,7 +26,7 @@ pip install virtualenv
 virtualenv <name>
 
 3. Activate
-<name>\Scripts\activate
+<name>\Scripts\activate (windows)
 
 4. Dependencies
 pip install -r requirements/local.txt | production.txt
